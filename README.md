@@ -13,6 +13,33 @@ Only if you want the get the camera streaming
 * AV to HDMI adapter ( It can be found cheap on amazon )
 * HDMI to CSI-2 for Raspberry Pi ( I am using the one with Toshiba TC358743XBG )
 
+### Software requirements
+
+I'm using raspbian lite ( desktop-less version ) to keep the cpu quieter. But you can use the full Raspbian if you prefer
+
+**CSI Camera enabled**
+
+You can enable it using **raspi-config**
+
+**ALSA**
+```
+sudo apt install alsa alsa-utils
+```
+
+**SOX**
+```
+sudo apt install sox
+```
+
+**COTURN (Only if you want to use this from remote)**
+```
+sudo apt install coturn
+```
+
+Coturn configuration instruction in progres...
+
+
+
 ### Wire up
 In progress...
 
