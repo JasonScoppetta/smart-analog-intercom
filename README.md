@@ -2,6 +2,11 @@
 This script is designed to work with a **Raspberry Pi** and a **Terraneo MP10WS**. However, it can basically be used with any multi-wire video door phone (
 at least for the audio part it should also be usable with two-wire ones).
 
+- WebSocket comunication
+- Two way audio comunication with WebRTC
+- One way door phone camera stream
+- MQTT enabled
+
 ### Hardware requirements
 * Raspberry Pi 3 ( with at least 5 free GPIOs )
 * A USB sound card adapter that has at least one microphone input and one headphone output ( Better if it has a preamp input )
