@@ -7,9 +7,9 @@ exports.WEB_SERVER_USE_HTTPS = false; // bool
 
 // Host
 exports.MQTT_ENABLED = true;
-exports.MQTT_HOST = "mqtt://homeassistant"; // string
-exports.MQTT_USER = "jason"; // string
-exports.MQTT_PASSWORD = "abcdsuperps2"; // string
+exports.MQTT_HOST = ""; // string
+exports.MQTT_USER = ""; // string
+exports.MQTT_PASSWORD = ""; // string
 exports.MQTT_CONNECTION_TIMEOUT = 10000;
 exports.MQTT_CLIENT_ID = "1002";
 exports.MQTT_KEEP_ALIVE = 60;
@@ -76,7 +76,7 @@ exports.CAMERA_DELAY_AFTER_ANSWER = 500;
 exports.OPEN_DOOR_DURATION = 5000;
 exports.CALL_DURATION = 1000 * 20;
 exports.JWT_SECRET =
-  "fjo2£fij098a-asd83999jf2ASDF34AAF34fd-asd43432412FSDFSGKdflad-asdk";
+  "";
 
 /* USERS */
 
