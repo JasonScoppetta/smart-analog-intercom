@@ -5,7 +5,7 @@ at least for the audio part it should also be usable with two-wire ones).
 ### Hardware requirements
 * Raspberry Pi 3 ( with at least 5 free GPIOs )
 * A USB sound card adapter that has at least one microphone input and one headphone output ( Better if it has a preamp input )
-* 6 5v Relays ( I used a card with 4 relays and a 2 relay to make it fit into the case of the door phone )
+* 6 5v Relays having both NC and NO wiring ( I used a card with 4 relays and a 2 relay to make it fit into the case of the door phone )
 * A 22R resistor
 * Wires and/or duponts
 
