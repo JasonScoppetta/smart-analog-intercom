@@ -1,4 +1,7 @@
 # smart-analog-intercom
+
+This repository exists to transform a common home door phone into a smart ( connected ) video door phone.
+
 This script is designed to work with a **Raspberry Pi** and a **Terraneo MP10WS**. However, it can basically be used with any multi-wire video door phone (
 at least for the audio part it should also be usable with two-wire ones).
 
